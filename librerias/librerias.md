@@ -81,3 +81,51 @@ Pandas tambien proporciona para la manipulación de estructuras básicas de dato
 - Funcionalidad  
 
 Ejemplos y explicacion de algunos metodos se encuentran en la carpeta [pandas](carpeta_de_pandas)
+
+### [Matplotlib](https://matplotlib.org/)
+
+Libreria de python para poder *presentar los datos* que se analicen con las librerias anteriores.
+
+[Matplotlib - Parte 1](https://www.youtube.com/watch?v=2VeHtuqW3YY&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=8)
+
+- Libreria de trazado utilizada para gráficos 2D.
+- Tiene muchos valores predeterminados incorporados.
+- Pasos básicos para trazar gráficos:
+    1. Hacer incorporaciones necesarias (librerias, gráficos, datos, etc...)
+    2. Preparar algunos datos.
+    3. Trazar la funcion con la instrucción plot().
+- Consideraciones al gráficar:
+    - Figura. 
+        - Ventana o página general donde se dibuja todo.
+        - Se puede crear múltiples figuras independientes.
+        - Una figura puede tener:
+            - Subtitulos. Titulos centrado de la figura.
+            - Leyenda
+            - Barra de color
+            - Otras. 
+    - Ejes
+        - Se agregan los ejes a la figura. 
+        - Es el área en la que se grafican los datos con funciones como plot() y scatter(). 
+        - Pueden tener etiquetas asociadas.
+    - Eje X y Eje Y
+        - Cada uno contiene su numeración.
+        - Personalización de cada eje:
+            - Título
+            - Leyenda
+            - Escalas
+            - Líneas de la cuadrícula 
+- Matplotlib, pyplot.
+    - Matplotlib: Todo el paquete de visualización de datos de Python
+    - pyplot: Módulo en el paquete matplotlib. El módulo proporciona una interfaz que permite crear figuras y ejes de forma implícita y automática para lograr la trama deseada.
+
+NOTA: Los datos de Machine Learning para graficar en matplotlib deberán estar estructurados bajo la libreria de NumPy. 
+
+[Matplotlib - Parte 2](https://www.youtube.com/watch?v=7ZjYXt5R1LU&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=9)
+
+Gráficos más importantes:
+    
+- Diagrama de línea.
+- Gráfico de barras.
+- Histograma. 
+- Gráfico de dispersión.
+- Gráfico circular.
