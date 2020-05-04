@@ -129,3 +129,29 @@ Gráficos más importantes:
 - Histograma. 
 - Gráfico de dispersión.
 - Gráfico circular.
+
+### [Scikit-Learn](https://scikit-learn.org/stable/)
+
+[Scikit-Learn](https://youtu.be/iONvh4hg0Qs?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
+
+- Libreria de códido abierto. 
+- Proporciona una gama de algoritmos de aprendizaje supervisado y no supervisado.
+- Esta construida sobre [ScyPy](https://www.scipy.org/)
+- Incluye las siguientes librerias
+    - [NumPy](https://numpy.org/): Libreria de matriz N dimensional base.
+    - [Pandas](https://pandas.pydata.org/): Estructura de datos y analisis.
+    - [SciPy](https://www.scipy.org/): Libreria fundamental para la informática científica.
+    - [Matplotlib](https://matplotlib.org/): Trazado completo de gráficos 2D y 3D. 
+    - [Jupyter Notebook](https://jupyter.org/): Consola interactiva mejorada.  
+    - [SymPy](https://www.sympy.org/en/index.html): Matemática simbólica.
+
+- Algunas funciones de Scikit-Learn:
+    - Algoritmos de aprendizaje supervisado.
+    - Algoritmos de aprendizaje no supervisado.
+    - Validación cruzada. 
+        - Existen métodos para verificar la precisión de los modelos. Esta librería cuienta con las instrucciones para poder implementarlos.  
+    - Varios datasets (conjunto de datos).
+        - Scikit-Learn pone a disposición varios datasets que son útiles para poder practicar los conocimientos de Machine Learning con Python. 
+    - Extracción y selección de características. 
+        - Útil para extraer características de imágenes y texto, así como también para identificar atributos significativos. 
+    - Comunidad.
