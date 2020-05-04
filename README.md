@@ -10,16 +10,18 @@ Un resumen explicativo de las librerias que utilizaré para desarrollar Machine 
 Se explicarán los algoritmos de aprendizaje supervisado y no supervisado. Los mismo son:
 
 - **Algoritmos de aprendizaje supervisado**:
-    - Lineal Regression
-    - Polynomial Regression
-    - Support Vector Regression
-    - Decision Tree Regression
-    - Random Forest Regression
-    - Logistic Regression
-    - K-Nearest Neighbours (K-NN)
-    - Support Vector Machine (SVM)
-    - Decision Tree Classification
-    - Random Forest Classification
+    - Regresión: 
+        - Lineal Regression - Regresión Lineal
+        - Polynomial Regression - Regresión polinomial
+        - Support Vector Regression - Vectores de soporte regresión
+        - Decision Tree Regression - Árboles de decisión regresión
+        - Random Forest Regression - Bosques aleatorios de regresión
+        - Logistic Regression - Regresión logistica
+        - K-Nearest Neighbours (K-NN) - K Vecinos más cercanos
+    - Clasificación:
+        - Support Vector Machine (SVM) - Máquinas de vectores de soporte
+        - Decision Tree Classification - Árboles de decisión clasificación
+        - Random Forest Classification - Bosques aleatorios de clasificación
 
 - **Algoritmos de aprendizaje no supervisado**:
     - K-Means Clustering
