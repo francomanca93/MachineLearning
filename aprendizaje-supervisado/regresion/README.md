@@ -32,3 +32,26 @@ El rendimiento del modelo depende de las suposiciones
     - No debe haber correlación entre las variables independientes.
     - Los términos de error deben poseer varianza constante, ni deben correlacionarse. (esto afecta a los coeficientes del modelo)
     - La variable dependiente y los términos de error deben tener una distribución normal.
+
+### [Regresión lineal múltiple](https://www.youtube.com/watch?v=wMg1HU6pfnk&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=17)
+
+En la vida real una variable que queremos predecir depende de múltiples variables independientes, de aca surge este algoritmo de regresión lineal múltiple.
+
+- Se manejan múltiples:
+    - Variables independientes que contribuyen a la variable dependiente.
+    - Coeficientes, por ende más compleja debido a las variables añadidas.
+- Matemáticamente: y = a1 * x1 + a2 * x2 + an * xn + b
+    - y = Variable dependiente
+    - a1...n = coeficientes
+    - x1...n = variables independientes
+    - b = intersección
+
+No se incluyen todas las variables independientes para empezar a estudiar, para luego minimizar la función de error.
+- ¿Como analizamos que variables elegir?
+    - Construir una matriz de correlación. 
+        - En esta se incluyen todas las variables independientes y la variable dependiente. 
+        - Con esto el valor de correlación sabemos que variable es significativa y por ende elegimos esa para hacer el estudio.
+    - ¿Porque hacemos esto? 
+        - Agregar todas las variables o muchas no significa que la regresión sea mejor u ofrezca mejor predicción. 
+        - Ajuste excesivo: Agregar mas variables independientes que pueden contribuir al aumento del error. 
+            - ¿Porque? Porque las variables independientes estan potencialmente relacionadas entre sí. Esto se llama *multicolinealidad*.  
