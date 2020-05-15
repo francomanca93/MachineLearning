@@ -23,8 +23,8 @@ Librería principal para infomática científica.
 - Estas estructuras garantizan cálculos eficientes con matrices.
 
 Array Numpy vs Listas Python:
-- Ocupa menos espacio de memoria con NumPy que una Lista de Python. [Demostracion](link-a-comp_espacio.py) 
-- Es mas rapido hacer calculos con arrays de NumPy que hacer calculos con listas y bucles en Python. [Demostracion](link-a-comp_velocidad.py)
+- Ocupa menos espacio de memoria con NumPy que una Lista de Python. [Demostracion](https://github.com/francomanca93/MachineLearning/blob/master/librerias/numpy/comp_memoria.py) 
+- Es mas rapido hacer calculos con arrays de NumPy que hacer calculos con listas y bucles en Python. [Demostracion](https://github.com/francomanca93/MachineLearning/blob/master/librerias/numpy/comp_velocidad.py)
 
 [NumPy - parte 2](https://youtu.be/aqIMhiialq0?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
 
@@ -80,7 +80,7 @@ Pandas tambien proporciona para la manipulación de estructuras básicas de dato
 - Métodos
 - Funcionalidad  
 
-Ejemplos y explicacion de algunos metodos se encuentran en la carpeta [pandas](carpeta_de_pandas)
+Ejemplos y explicacion de algunos metodos se encuentran en la carpeta [pandas](https://github.com/francomanca93/MachineLearning/tree/master/librerias/pandas)
 
 ### [Matplotlib](https://matplotlib.org/)
 
@@ -129,6 +129,8 @@ Gráficos más importantes:
 - Histograma. 
 - Gráfico de dispersión.
 - Gráfico circular.
+
+Se pueden ver los mismos en la carpeta [matplotlib](https://github.com/francomanca93/MachineLearning/tree/master/librerias/matplotlib)
 
 ### [Scikit-Learn](https://scikit-learn.org/stable/)
 

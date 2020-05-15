@@ -5,7 +5,7 @@ Nota: Este es un material de apoyo personal que iré **desarrollando** en base a
 
 Esto material corresponde a una serie de pasos de [como empezar en Data Science](https://github.com/francomanca93/Data-Visualization/blob/master/DataScientist-spanish.md) 
 
-Un resumen explicativo de las librerias que utilizaré para desarrollar Machine Learning se encuentran en el siguiente [link](https://github.com/francomanca93/MachineLearning/blob/master/librerias/librerias.md)
+Un resumen explicativo de las librerias que utilizaré para desarrollar Machine Learning se encuentran en el siguiente [link](https://github.com/francomanca93/MachineLearning/blob/master/librerias/README.md)
 
 Se explicarán los algoritmos de aprendizaje supervisado y no supervisado. Los mismo son:
 
