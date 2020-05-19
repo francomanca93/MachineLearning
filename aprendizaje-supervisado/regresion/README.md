@@ -55,3 +55,35 @@ No se incluyen todas las variables independientes para empezar a estudiar, para 
         - Agregar todas las variables o muchas no significa que la regresión sea mejor u ofrezca mejor predicción. 
         - Ajuste excesivo: Agregar mas variables independientes que pueden contribuir al aumento del error. 
             - ¿Porque? Porque las variables independientes estan potencialmente relacionadas entre sí. Esto se llama *multicolinealidad*.  
+
+### [Regresión polinomial](https://www.youtube.com/watch?v=bvQenoLWZfc&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=20)
+
+- Es un caso especial de la regresión lineal. Es una forma sencilla de proporcionar un ajuste NO LINEAL a los datos.
+- Se agregan predictores adicionales, elevandose a una potencia cada vez que aumentamos el grado.
+- Matemáticamente: 
+    - Con una variable: 
+        - y = a1 * x1 + a2 * x1 ^ 2 + b
+    - Con dos variables: 
+        - y = (a1 * x1 + a2 * x1 ^ 2) + (a3 * x2 + a4 * x2 ^ 2) + a5 * x1 * x2 + b
+    - Significado: 
+        - y = Variable dependiente
+        - a1...n = coeficientes
+        - x1...n = variables independientes
+        - b = intersección
+
+- Ventajas:
+    - Usar modelos lineales entrenados en funciones no lineales de los datos. 
+    - ¿Que permite esto?
+        - Mantiene el rendimiento rápido de los métodos lineales.
+        - Le permite ajustarse y tiene la flexibilidad de adaptarse a una gama de datos mucho más amplia.
+- Desventajas:
+    - Si aumentamos la complejidad de la formula puede ser difícil de manejar.
+    - Tendecia al sobreajuste (overfitting) si aumentamos el grado.
+        - Siempre se debe trazar las relaciones para ver el ajuste.
+        - La curva debe ajustarse a la naturaleza el problema y no a todos los datos
+        - ¿COMO NOS DAMOS CUENTA?
+            - Prestar atención a los extremos de la curva. 
+                - Ver si las formas y tendencias tienen sentido.
+    - Si usamos polinomios de alto grado es inherentemente no local, es decir, cambiar el valor de "y" en un punto del conjunto de entrenamiento puede afectar el ajuste del polinomio para los puntos de datos que están muy lejos.
+        - ¿Como soluciono esto?
+            - Se puede sustituir con muchas funciones de pequeños grados diferentes.
