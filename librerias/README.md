@@ -4,12 +4,20 @@ Nota: Este es un material de apoyo personal que iré desarrollando en base a tut
 
 Cuando programas en python y te involucras en [Machine Learning](https://es.wikipedia.org/wiki/Aprendizaje_autom%C3%A1tico) las [librerias](https://es.wikipedia.org/wiki/Biblioteca_(inform%C3%A1tica)) mas importantes son las siguientes: 
 
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-Learn
+- Librerias de datos
+    - **NumPy**
+    - **Pandas**
+    - SciPy
+- Librerias de visualización
+    - **Matplotlib**
+    - Seaborn
+- Librerias de algoritmos
+    - **Scikit-Learn**
+    - Statsmodels
 
 Cada una de ellas las explicaré y citaré de donde las aprendí.
+
+## Librerias de datos
 
 ### [NumPy](https://numpy.org/)
 [NumPy - Parte 1](https://youtu.be/WxJr143Os-A?list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3)
@@ -86,6 +94,8 @@ Ejemplos y explicacion de algunos metodos se encuentran en la carpeta [pandas](h
 
 Libreria de python para poder *presentar los datos* que se analicen con las librerias anteriores.
 
+## Librería de visualización
+
 [Matplotlib - Parte 1](https://www.youtube.com/watch?v=2VeHtuqW3YY&list=PLJjOveEiVE4Dk48EI7I-67PEleEC5nxc3&index=8)
 
 - Libreria de trazado utilizada para gráficos 2D.
@@ -131,6 +141,8 @@ Gráficos más importantes:
 - Gráfico circular.
 
 Se pueden ver los mismos en la carpeta [matplotlib](https://github.com/francomanca93/MachineLearning/tree/master/librerias/matplotlib)
+
+## Librería de algoritmos
 
 ### [Scikit-Learn](https://scikit-learn.org/stable/)
 

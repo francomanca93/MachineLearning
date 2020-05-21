@@ -12,7 +12,7 @@ Se practicarán los pasos con un [dataframe de Titanic](https://www.kaggle.com/c
 
 - Pasos
 
-1. Importar y exportar el conjunto de datos. [Práctica]()
+1. Importar y exportar el conjunto de datos. [Práctica](https://github.com/francomanca93/MachineLearning/blob/master/preprocesamiento-de-datos/importar_exportar_datos_titanic.py)
 
     1. Importación de las librerias.
     ```
